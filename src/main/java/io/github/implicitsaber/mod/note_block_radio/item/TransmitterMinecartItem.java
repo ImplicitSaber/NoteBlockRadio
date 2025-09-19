@@ -1,7 +1,6 @@
 package io.github.implicitsaber.mod.note_block_radio.item;
 
 import io.github.implicitsaber.mod.note_block_radio.entity.TransmitterMinecartEntity;
-import io.github.implicitsaber.mod.note_block_radio.reg.ModEntityTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.dispenser.BlockSource;

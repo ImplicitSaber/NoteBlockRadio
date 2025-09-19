@@ -40,7 +40,7 @@ public class TransmitterListener implements GameEventListener {
     }
 
     @Override
-    public boolean handleGameEvent(ServerLevel level, Holder<GameEvent> gameEvent, GameEvent.Context context, Vec3 pos) {
+    public boolean handleGameEvent(@NotNull ServerLevel level, Holder<GameEvent> gameEvent, @NotNull GameEvent.Context context, @NotNull Vec3 pos) {
         if(!gameEvent.is(GameEvent.NOTE_BLOCK_PLAY)) return false;
         if(!this.shouldTransmit.get()) return false;
         BlockPos bPos = new BlockPos((int) (pos.x - 0.5), (int) (pos.y - 0.5), (int) (pos.z - 0.5));

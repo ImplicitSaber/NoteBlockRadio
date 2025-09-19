@@ -9,6 +9,7 @@ version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "${mod_authors}"
 description = '''${mod_description}'''
+updateJSONURL = "https://raw.githubusercontent.com/ImplicitSaber/NoteBlockRadio/refs/heads/main/update.json"
 
 [[dependencies."${mod_id}"]] 
 modId = "neoforge"
