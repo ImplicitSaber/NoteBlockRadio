@@ -1,0 +1,27 @@
+{
+  "item.note_block_radio.transmitter_minecart": "Minecart with Transmitter",
+
+  "block.note_block_radio.transmitter": "Transmitter",
+  "block.note_block_radio.radio": "Radio",
+  "block.note_block_radio.radio_jammer": "Radio Jammer",
+  "block.note_block_radio.relay": "Relay",
+
+  "entity.note_block_radio.transmitter_minecart": "Minecart with Transmitter",
+
+  "itemGroup.note_block_radio.main": "Note Block Radio",
+
+  "note_block_radio.configuration.title": "Note Block Radio Config",
+  "note_block_radio.configuration.section.note.block.radio.common.toml": "Note Block Radio Common Config",
+  "note_block_radio.configuration.section.note.block.radio.common.toml.title": "Note Block Radio Common Config",
+  "note_block_radio.configuration.lossless_range": "Lossless Range",
+  "note_block_radio.configuration.lossless_range.tooltip": "The range at which a transmission is received the same as it was sent.",
+  "note_block_radio.configuration.lossy_range": "Lossy Range",
+  "note_block_radio.configuration.lossy_range.tooltip": "The range added onto the lossless range at which a transmission is received, but some notes may be lost.",
+  "note_block_radio.configuration.channel_count": "Channel Count",
+  "note_block_radio.configuration.channel_count.tooltip": "The amount of channels available to select from.",
+  "note_block_radio.configuration.relay_hop_limit": "Relay Hop Limit",
+  "note_block_radio.configuration.relay_hop_limit.tooltip": "The maximum amount of relays a signal can hop between to reach a radio.",
+
+  "note_block_radio.channel_changed": "Changed channel to %s",
+  "note_block_radio.get_channel": "Currently on channel %s"
+}

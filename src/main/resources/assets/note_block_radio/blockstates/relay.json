@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "relaying=false": {
+      "model": "note_block_radio:block/relay"
+    },
+    "relaying=true": {
+      "model": "note_block_radio:block/relay_on"
+    }
+  }
+}

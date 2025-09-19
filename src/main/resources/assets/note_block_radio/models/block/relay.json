@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "note_block_radio:block/relay",
+    "end": "note_block_radio:block/transmitter_vertical"
+  }
+}

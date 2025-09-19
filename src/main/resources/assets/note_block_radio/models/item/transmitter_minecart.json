@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "note_block_radio:item/transmitter_minecart"
+  }
+}

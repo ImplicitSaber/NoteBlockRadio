@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "jamming=false": {
+      "model": "note_block_radio:block/radio_jammer"
+    },
+    "jamming=true": {
+      "model": "note_block_radio:block/radio_jammer_on"
+    }
+  }
+}

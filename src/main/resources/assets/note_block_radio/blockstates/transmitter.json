@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "transmitting=false": {
+      "model": "note_block_radio:block/transmitter"
+    },
+    "transmitting=true": {
+      "model": "note_block_radio:block/transmitter_on"
+    }
+  }
+}
